@@ -16,6 +16,21 @@
 - [x] Spelling Check Feature
 - [x] File Store
 
+## Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TELEZEN/JENNIE-V9-PERF)
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/EvamariaTG/evamaria
+# Install Packages
+pip3 install -U -r requirements.txt
+Edit info.py with variables as given below then run bot
+python3 bot.py
+</pre>
+</p>
+</details>
+
+
 ## Variables
 
 ### Required Variables
