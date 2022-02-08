@@ -626,8 +626,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "gtrans":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help'),
-            InlineKeyboardButton('lang codes', url='https://cloud.google.com/translate/docs/languages')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='Hᴇʟᴘ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
